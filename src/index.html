@@ -1,19 +1,37 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>News Aggregator</title>
-</head>
-<body>
-  <h1 class="site-title">News Aggregator</h1>
-  
-  <div class="search-container">
-    <input type="text" name="search" id="search" placeholder="Type and press enter to search..." />
-  </div>
-
-  <ul id="news-articles">
-
-  </ul>
-</body>
+<html>
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="index.css" />
+    <title>News Aggregator App</title>
+    <meta
+      name="News Aggregator App"
+      content="Best News Aggregator Apps for Android. If you are looking for a smart news aggregator which will bring the latest and relevant news for you. https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  <body>
+    <!-- logo of Project -->
+    <div id="logo">
+      <h3>NEWS AGGREGATOR</h3>
+    </div>
+    <!-- input search bar and placeholder -->
+    <input id="search" placeholder="Type and press enter to search" />
+    <!-- HTML content is placed here -->
+    <ul id="news-articles"></ul>
+    <!-- js file is connect with HTML -->
+    <script src="index.js"></script>
+  </body>
 </html>
+

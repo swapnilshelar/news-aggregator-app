@@ -86,5 +86,5 @@ p {
   }
 }
 .not-found {
-  display:block;
+  display:none;
 }

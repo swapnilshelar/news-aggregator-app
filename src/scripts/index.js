@@ -4,7 +4,7 @@ let newsarticles = document.getElementById("news-articles");
 function final(Result) {
   let found = "";
   if (Result.length == 0) {
-    Found = `<div class="not-found">No article was found based on the search.</div>`;
+    Found = `<h3 class="not-found">No article was found based on the search.</h3>`;
     newsarticles.innerHTML = Found;
     console.log("else");
   } else {

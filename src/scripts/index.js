@@ -16,14 +16,12 @@ function final(Result) {
       let url1 = article.url;
       found += `
       <li class="article">
-  <div id="newsBody">
     <img src="${urlToImage}" class="article-img" alt="image not found">
     <div>
       <h2 class="article-title">${title}</h2>
       <p class="article-description">${description}</p>
       <p><span class="article-author">-<a class="article-link" href="${url1}">${author}</a></span></p>
     </div>
-  </div>
   </li>`;
       newsarticles.innerHTML = found;
     });

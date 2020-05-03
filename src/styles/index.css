@@ -85,3 +85,6 @@ p {
     margin-right: 20px;
   }
 }
+.not-found {
+  display: none;
+}
